@@ -1,0 +1,196 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    background-color: #efca93;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#top {
+    color: rgb(245, 10, 10);
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(175, 151, 172);
+    padding: 15px;
+}
+
+#navcontent {
+    display: flex;
+    list-style: none;
+}
+
+#navcontent li {
+    margin: 0 15px;
+}
+
+#navcontent li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#navcontent li a:hover {
+    background-color: rgba(203, 119, 119, 0.8);
+    border-radius: 5px;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    position: relative;
+    background-image: url('ai-restaurant-hero.jpg');
+    background-size: cover;
+    height: 400px;
+    color: white;
+}
+.main-img {
+    transition: box-shadow 0.1s ease;
+    background-size: cover;
+}
+
+
+.main-img:hover {
+    box-shadow: 0px 0px 20px rgba(239, 5, 5, 0.5);
+}
+
+#bgtext {
+    padding-top: 10px;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #f50a0a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #890404;
+}
+
+/* Specials Section */
+.specials {
+    margin-top: 90px;
+    text-align: center;
+    padding: 60px;
+}
+
+.specials h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.dish {
+    display: inline-block;
+    margin: 20px;
+}
+
+.dish img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.dish-name {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: #f3f3f3;
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+#footer {
+    background-color: rgb(175, 151, 172);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons a img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+/*Designing of Contact Us*/
+
+.contactbox{
+    height: 100vh;
+    width: 30vw;
+    margin-top: -80px;
+    background-color: transparent;
+    align-content: center;
+    padding: 30px 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    backdrop-filter: blur(1.5px);
+}
+#ContactUs {
+    text-shadow: 0PX 0PX 7px white;
+    padding: 12%;
+    font-weight: bold;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(index/bg2.jpg);
+    background-size: cover;
+
+}
+
+.form-shape input,
+.form-shape select,
+.form-shape textarea {
+    margin: 10px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 92%;
+    padding: 10px;
+}
+.contactbox h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.btn1 {
+    height: 30px;
+    width: 100px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
